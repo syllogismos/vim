@@ -93,6 +93,14 @@ noremap <Leader>' bi'<Esc>ea'<Esc>
 
 " brackets and exclamation in insert mode
 " type jj in insert mode while inside brackets to get out of them
+" a >>= angle brackets
+" s >>= square brackets
+" d >>= dat ass >>= ass is curvy >>= curly brackets
+" f >>= no explanation
+inoremap <Leader>a <><Esc>i
+inoremap <Leader>s []<Esc>i
+inoremap <Leader>d {}<Esc>i
+inoremap <Leader>f ()<Esc>i
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {}<Esc>i
