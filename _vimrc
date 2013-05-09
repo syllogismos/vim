@@ -111,7 +111,11 @@ inoremap jj <Esc>%%a
 
 " abbrevations for monads in haskell
 ab mm >>=
+ab nn ->
 
 "   remapping backspace"
 inoremap ,. <BackSpace>
 inoremap ., <BackSpace>
+
+" remapping ,, to ctrl for intellisense
+inoremap ,, <C-p>
