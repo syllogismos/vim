@@ -97,6 +97,9 @@ noremap <Leader>' bi'<Esc>ea'<Esc>
 " s >>= square brackets
 " d >>= dat ass >>= ass is curvy >>= curly brackets
 " f >>= no explanation
+" g >>= for deleting the accidental wrong brackets when you use on of the
+" below commands like when you did <Leader>a and instead of <leader> b and you
+" want to undo it do 
 inoremap <Leader>a <><Esc>i
 inoremap <Leader>s []<Esc>i
 inoremap <Leader>d {}<Esc>i
@@ -107,6 +110,7 @@ inoremap { {}<Esc>i
 inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
 inoremap jj <Esc>%%a
+inoremap ,g <Esc>xxa
 " end
 
 " abbrevations for monads in haskell
