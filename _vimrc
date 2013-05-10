@@ -110,8 +110,8 @@ inoremap jj <Esc>%%a
 " end
 
 " abbrevations for monads in haskell
-ab mm >>=
-ab nn ->
+" ab mm >>=
+" ab nn ->
 
 "   remapping backspace"
 inoremap ,. <BackSpace>
