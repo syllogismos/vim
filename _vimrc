@@ -109,7 +109,7 @@ inoremap [ []<Esc>i
 inoremap { {}<Esc>i
 inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
-inoremap jj <Esc>%%a
+inoremap jj <Esc>l%%a
 inoremap ,g <Esc>xxa
 " end
 
