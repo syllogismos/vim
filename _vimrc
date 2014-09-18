@@ -28,14 +28,9 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
+
 inoremap jk <esc>
 inoremap kj <esc>
-
-set nocompatible
-filetype off
-
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
 
 " Tab specific options www.haskell.org/haskellWiki/Vim
 set tabstop=2
@@ -70,6 +65,7 @@ noremap <Leader>s bi[<Esc>ea]<Esc>
 noremap <Leader>< bi<<Esc>ea><Esc>
 noremap <Leader>> bi<<Esc>ea><Esc>
 noremap <Leader>a bi<<Esc>ea><Esc>
+" end
 
 
 " brackets and exclamation in insert mode
@@ -88,8 +84,6 @@ inoremap <Leader>f ()<Esc>i
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {}<Esc>i
-inoremap " ""<Esc>i
-inoremap ' ''<Esc>i
 inoremap jj <Esc>l%%a
 inoremap ,g <Esc>xxa
 " end
@@ -125,5 +119,6 @@ au BufEnter *.hs compiler ghc
 
 let g:haddock_browser="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome"
 let g:haddock_docdir="C:\\Program Files (x86)\\Haskell Platform\\2013.2.0.0\\doc\\html\\"
+
 
 
